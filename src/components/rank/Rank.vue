@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div>Rank</div>
+    <div>haha</div>
   </div>
 </template>
 
@@ -11,6 +11,6 @@ export default {
 </script>
 
 <style scoped lang="stylus">
-	div
-		display:inline-block
+div
+  display:inline-block
 </style>
