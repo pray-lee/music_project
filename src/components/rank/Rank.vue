@@ -10,6 +10,7 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style scoped lang="stylus">
+	div
+		display:inline-block
 </style>
