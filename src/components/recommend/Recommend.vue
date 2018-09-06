@@ -1,11 +1,13 @@
 <template>
   <div class="recommend">
     <div class="recommend-content">
-      <div class="slider-wrapper">
-        <slider v-for="(item, index) in recommends" :key="index">
-          <a :href="item.linkUrl">
-            <img :src="item.picUrl" alt="">
-          </a>
+      <div class="slider-wrapper" v-if="recommends.length">
+        <slider>
+          <div v-for="(item, index) in recommends" :key="index">
+            <a :href="item.linkUrl">
+              <img :src="item.picUrl" alt="">
+            </a>
+          </div>
         </slider>
       </div>
       <div class="recommend-list">
